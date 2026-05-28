@@ -161,7 +161,7 @@ extractor.save_parameters('B0005_ecm_params.csv')
 
 ---
 
-## 🔬 Parameter Interpretation
+## Parameter Interpretation
 
 ### R0 (Ohmic Resistance)
 - **Physical:** SEI layer, electrolyte, current collectors
