@@ -22,7 +22,7 @@ def fix_notebook():
                 
                 # Check if already fixed
                 if 'from sklearn.metrics import' in source:
-                    print("✅ Already fixed!")
+                    print(" Already fixed!")
                     return
                 
                 # Fix the imports
@@ -40,7 +40,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score'''
                                  for i, line in enumerate(cell['source'])]
                 
                 fixed = True
-                print("✅ Fixed imports!")
+                print(" Fixed imports!")
                 break
     
     if not fixed:
@@ -52,7 +52,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score'''
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(nb, f, indent=1, ensure_ascii=False)
     
-    print(f"\n✅ Fixed notebook saved to: {output_path}")
+    print(f"\n Fixed notebook saved to: {output_path}")
     print("\nYou can now:")
     print("1. Rename it to replace the original, OR")
     print("2. Open it directly in Jupyter")
