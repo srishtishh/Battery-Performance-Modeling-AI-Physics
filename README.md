@@ -2,35 +2,43 @@
 
 ## Overview
 
-This project implements a comprehensive battery health monitoring and prediction system using multiple complementary approaches:
+The project presents a hybrid battery performance modeling framework that combines Artificial Intelligence (AI) techniques with Physics-Based Models for accurate battery analysis, prediction, and health monitoring.
 
-1. **📊 Machine Learning (ML)** - Random Forest, Gradient Boosting for RUL prediction
-2. **🧠 Deep Learning (DL)** - CNN/LSTM for State of Health estimation
-3. **⚡ Physics-Based (ECM)** - Equivalent Circuit Models for interpretable analysis
-4. **🚀 Hybrid (ECM + LSTM)** - Combined approach for optimal performance ⭐
+The system integrates:
 
+1. Artificial Intelligence & Machine Learning
+   - LSTM, CNN, Random Forest, Gradient Boosting
+   - Data-driven prediction and estimation
+2. Physics-Based Modeling
+   - Equivalent Circuit Models (ECM)
+   - Electrochemical parameter analysis
+   - Physically interpretable battery behavior
+3. Hybrid AI + Physics-Based Framework
+   - Combines deep learning with ECM features
+   - Improves prediction accuracy and reliability
+   - Enables interpretable battery diagnostics
 ---
 
-## 🎯 Key Features
+## Key Features
 
-### **State of Health (SoH) Estimation**
+1. State of Health (SoH) Estimation
 - CNN/LSTM neural networks for data-driven health estimation
 - ECM parameter tracking for physics-based analysis
 - Real-time battery health monitoring (0-100%)
 
-### **Remaining Useful Life (RUL) Prediction**
+2. Remaining Useful Life (RUL) Prediction
 - Ensemble ML models (Random Forest, XGBoost, Gradient Boosting)
 - Predicts remaining charge/discharge cycles before failure
 - Achieves R² ≈ 0.95-0.99 accuracy
 
-### **Fault Detection & Diagnostics**
+3. Fault Detection & Diagnostics
 - Abnormal ECM parameter change detection
 - Anomaly detection using ML models
 - Early warning system for battery failures
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 battery-management-system/
@@ -72,7 +80,7 @@ battery-management-system/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### **Prerequisites**
 - Python 3.8 or higher
