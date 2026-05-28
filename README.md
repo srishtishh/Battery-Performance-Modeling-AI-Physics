@@ -391,17 +391,9 @@ This project uses three main datasets totaling **1.2 GB**. Due to GitHub size li
 
 ### **📥 How to Get the Datasets**
 
-**Option 1: Download from Original Sources**
+**Download from Original Sources**
 - **NASA Dataset:** [NASA Prognostics Data Repository](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/)
 - **Hawaii Dataset:** [Kaggle - Battery RUL Dataset](https://www.kaggle.com/)
-
-**Option 2: Contact Repository Owner**
-- Datasets can be shared via Google Drive or other file sharing services
-- Contact: [Your Email/Contact Info]
-
-**Option 3: Use Sample Data**
-- The code includes data loading utilities in `battery_loader.py`
-- You can test with your own battery datasets
 
 ### **Dataset Setup**
 
