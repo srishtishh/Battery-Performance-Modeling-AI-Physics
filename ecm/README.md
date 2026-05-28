@@ -207,5 +207,3 @@ extractor.save_parameters('B0005_ecm_params.csv')
 | **Speed** | Fast | Variable |
 | **Generalization** | Better | Limited |
 | **Fault Detection** | Built-in | Needs labels |
-
-**Best Approach:** Combine both! Use ECM parameters as features for ML models.
